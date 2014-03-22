@@ -1,0 +1,34 @@
+{
+  "name": "ngrok-my-server",
+  "version": "0.0.0",
+  "description": "Helper library for publishing http servers or express apps over ngrok",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha *_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightsofapollo/ngrok-my-server.git"
+  },
+  "keywords": [
+    "ngrok",
+    "http",
+    "testing"
+  ],
+  "author": "James Lal [:lightsofapollo]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lightsofapollo/ngrok-my-server/issues"
+  },
+  "homepage": "https://github.com/lightsofapollo/ngrok-my-server",
+  "dependencies": {
+    "ngrok": "~0.1.8",
+    "promise": "~4.0.0"
+  },
+  "devDependencies": {
+    "superagent": "~0.17.0",
+    "superagent-promise": "~0.1.0",
+    "mocha": "~1.18.2",
+    "express": "~3.5.0"
+  }
+}
